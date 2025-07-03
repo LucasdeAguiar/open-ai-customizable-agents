@@ -15,6 +15,16 @@ It is composed of two parts:
 
 ## How to use
 
+## Custom Features
+
+This fork extends the original OpenAI customer service demo with:
+
+- **Customizable Agents:** Create and delete your own agents via the UI or API, with custom instructions and descriptions.
+- **Dynamic Routing:** The Triage Agent will automatically route user requests to any custom agent you create.
+- **Modern UI:** Manage agents and see which one is active in real time.
+
+Feel free to experiment by adding new agent types and testing the orchestration!
+
 ### Setting your OpenAI API key
 
 You can set your OpenAI API key in your environment variables by running the following command in your terminal:
